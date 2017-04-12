@@ -414,7 +414,7 @@ task main() //backaround code --controls disabled, auton, and driver !!do not mo
 
 
 													//	displayNextLCDString("Autonomous");
-											#if (bPlayMusicDuringMatch) // if jumper in port 9 and bPlayMusicDuringMatch=true play music!
+									//		#if (bPlayMusicDuringMatch) // if jumper in port 9 and bPlayMusicDuringMatch=true play music!
 														//if (SensorValue[Playmusic]==0)
 														//{
 														//	//			playSoundFile("BeginMusicalSeq.wav");
@@ -435,7 +435,7 @@ task main() //backaround code --controls disabled, auton, and driver !!do not mo
 														//	//playSoundFile("NyanEnding.wav");
 
 														//}
-											#endif
+							//				#endif
 
 			stopTask(autonomousSelection); //Stops Task(autonomousSelection);
 			if(autonomousMode==15) // if auton selection =15 default start auton selection
