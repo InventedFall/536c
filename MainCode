@@ -376,16 +376,16 @@ task usercontrol()
 			/////////////////////////////////////////////////////////////////////////////////
 
 
-			if (vexRT[Btn7D]==1)//controls drive speeds shown above
+			if (vexRT[Btn7U]==1)//controls drive speeds shown above
 			{
 				curve=true;
 			}
-			if (vexRT[Btn7L]==1)
+			if (vexRT[Btn7D]==1)
 			{
 				curve=false;
 			}
 
-			if(vexRT[Btn8R]==1)
+			if(vexRT[Btn8U]==1)
 			{
 				control = true;
 			}
@@ -394,11 +394,11 @@ task usercontrol()
 				control = false;
 			}
 
-			if(vexRT[Btn5U]==1)
+			if(vexRT[Btn7L]==1)
 			{
 				inversed = false;
 			}
-			if(vexRT[Btn5D]==1)
+			if(vexRT[Btn7r]==1)
 			{
 				inversed = true;
 			}
@@ -503,17 +503,16 @@ task usercontrol()
 				;// ..deactivate the solenoid.
 			}
 
-
-			if (vexRT[Btn7D]==1)
+		if (vexRT[Btn7U]==1)//controls drive speeds shown above
 			{
 				curve=true;
 			}
-			if (vexRT[Btn7L]==1)
+			if (vexRT[Btn7D]==1)
 			{
 				curve=false;
 			}
 
-			if(vexRT[Btn8R]==1)
+			if(vexRT[Btn8U]==1)
 			{
 				control = true;
 			}
@@ -522,11 +521,11 @@ task usercontrol()
 				control = false;
 			}
 
-			if(vexRT[Btn8U]==1)
+			if(vexRT[Btn7L]==1)
 			{
 				inversed = false;
 			}
-			if(vexRT[Btn7U]==1)
+			if(vexRT[Btn7r]==1)
 			{
 				inversed = true;
 			}
