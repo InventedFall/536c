@@ -1,4 +1,4 @@
-# 536c
+# 536c Life
 version 1.0.1
 
 // MAIN PROGRAM DESCRIPTIONS
