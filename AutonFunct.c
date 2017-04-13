@@ -38,10 +38,10 @@ void liftMotors ( int speed)
 
 	motor[lift1]= speed;
 	motor[lift2]= speed;
-	//motor[lift3]= speed;
-	//motor[lift4]= speed;//sets lift speeds in Chasis functions for lifting but also driver
-	//motor[lift5]= speed;
-	//motor[lift6]= speed;
+	motor[lift3]= speed;
+	motor[lift4]= speed;//sets lift speeds in Chasis functions for lifting but also driver
+	motor[lift5]= speed;
+	motor[lift6]= speed;
 
 }
 

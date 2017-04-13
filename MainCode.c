@@ -15,8 +15,8 @@
 #pragma config(Motor,  port3,           lift1,         tmotorVex393HighSpeed_MC29, openLoop)
 #pragma config(Motor,  port4,           lift2,         tmotorVex393HighSpeed_MC29, openLoop)
 #pragma config(Motor,  port5,           lift3,         tmotorVex393HighSpeed_MC29, openLoop)
-#pragma config(Motor,  port6,           R1,            tmotorVex393HighSpeed_MC29, openLoop)
-#pragma config(Motor,  port7,           R2,            tmotorVex393HighSpeed_MC29, openLoop)
+#pragma config(Motor,  port6,           r1,            tmotorVex393HighSpeed_MC29, openLoop)
+#pragma config(Motor,  port7,           r2,            tmotorVex393HighSpeed_MC29, openLoop)
 #pragma config(Motor,  port8,           lift4,         tmotorVex393HighSpeed_MC29, openLoop)
 #pragma config(Motor,  port9,           lift5,         tmotorVex393HighSpeed_MC29, openLoop)
 #pragma config(Motor,  port10,          lift6,         tmotorVex393HighSpeed_HBridge, openLoop)
@@ -368,7 +368,7 @@ task usercontrol()
 			{
 				inversed = false;
 			}
-			if(vexRT[Btn7r]==1)
+			if(vexRT[Btn7R]==1)
 			{
 				inversed = true;
 			}
@@ -495,7 +495,7 @@ task usercontrol()
 			{
 				inversed = false;
 			}
-			if(vexRT[Btn7r]==1)
+			if(vexRT[Btn7R]==1)
 			{
 				inversed = true;
 			}
